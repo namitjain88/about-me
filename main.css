@@ -26,6 +26,30 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skill-item {
+    display: flex;
+    flex-wrap: wrap;    
+    flex-grow: 1;
+    gap: 5px;
+}
+
+.skill-item .name {
+    margin: 0;
+    width: 120px;
+}
+
+.skill-item .proficiency {
+    background-color: #a5a58d;
+    width: 500px;
+    flex-grow: 1;
+}
   
 /* Right container styles starts from here */
 .right-container {
@@ -54,4 +78,16 @@ body {
     justify-content: flext-start;
     gap: 20px;
     margin: auto; /* trick to center contents of a div */
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-decoration: none;
+    color: #a5a58d;
 }
