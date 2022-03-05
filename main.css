@@ -24,8 +24,14 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 20px 20px; /*top horizontal bottom*/
+    gap: 25px;
 }
 
+.profile-summary {
+    margin: 0; /*removes paragraph top-bottom*/
+}
+
+/* Skills style starts */
 .skill-list {
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +55,41 @@ body {
     flex-grow: 1;
     min-width: 200px;
 }
+/* Skills style ends */
+
+/* Work experience style starts */
+.project-list{    
+    padding: 0; /* left padding created by ol */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.role-duration{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+  
+.project-role {
+    margin: 0;
+    width: 70%;
+}
+
+.client-employer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+/* Work experience style ends */
   
 /* Right container styles starts from here */
 .right-container {
