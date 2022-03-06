@@ -17,6 +17,7 @@ body {
     background-color: #2f0e07;
     max-width: 1000px;
     margin: auto;
+    box-shadow: -1px -1px 1rem rgba(233, 225, 225, 0.175);
 }
   
 .left-container {
@@ -90,6 +91,37 @@ body {
     gap: 5px;
 }
 /* Work experience style ends */
+
+/* Project definition list (dl) styles start */
+.project-dl {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dl-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dt::after {
+    content: ' :';
+}
+
+dd {
+    margin-left: 10px;
+}
+
+.responsibilities {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+/* Project definition list (dl) styles end */
   
 /* Right container styles starts from here */
 .right-container {
