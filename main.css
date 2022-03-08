@@ -142,7 +142,7 @@ dd {
     border-radius: 65px;
 }
 
-.contact-section, .education-section {    
+.contact-section, .qualification-section {    
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -155,7 +155,8 @@ dd {
     color: #a5a58d;
 }
 
-.education-list {
+/* Education & Certification styles start */
+.qualification-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -164,17 +165,18 @@ dd {
     gap: 20px;
 }
 
-.education-item {
+.qualification-item {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.degree {
+.course {
     margin: 0;
 }
 
-.college, .university, .duration {
+.institute, .duration {
     margin: 0;
     font-weight: lighter;
 }
+/* Education & Certification styles end */
