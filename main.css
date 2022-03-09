@@ -155,6 +155,10 @@ dd {
     color: #a5a58d;
 }
 
+.contact-link:hover {
+    text-decoration: underline;
+}
+
 /* Education & Certification styles start */
 .qualification-list {
     list-style: none;
